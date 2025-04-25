@@ -1,0 +1,24 @@
+[0.585s] Invoking command in '/home/eren/ern/projects/main_kasva_ws/src/gui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gui build --build-base /home/eren/ern/projects/main_kasva_ws/build/gui/build install --record /home/eren/ern/projects/main_kasva_ws/build/gui/install.log --single-version-externally-managed install_data
+[0.731s] running egg_info
+[0.741s] writing ../../build/gui/gui.egg-info/PKG-INFO
+[0.741s] writing dependency_links to ../../build/gui/gui.egg-info/dependency_links.txt
+[0.741s] writing entry points to ../../build/gui/gui.egg-info/entry_points.txt
+[0.741s] writing requirements to ../../build/gui/gui.egg-info/requires.txt
+[0.741s] writing top-level names to ../../build/gui/gui.egg-info/top_level.txt
+[0.761s] reading manifest file '../../build/gui/gui.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/gui/gui.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.762s] copying gui/kasva_gui.py -> /home/eren/ern/projects/main_kasva_ws/build/gui/build/lib/gui
+[0.762s] running install
+[0.766s] running install_lib
+[0.776s] copying /home/eren/ern/projects/main_kasva_ws/build/gui/build/lib/gui/kasva_gui.py -> /home/eren/ern/projects/main_kasva_ws/install/gui/lib/python3.12/site-packages/gui
+[0.776s] byte-compiling /home/eren/ern/projects/main_kasva_ws/install/gui/lib/python3.12/site-packages/gui/kasva_gui.py to kasva_gui.cpython-312.pyc
+[0.777s] running install_data
+[0.777s] running install_egg_info
+[0.788s] removing '/home/eren/ern/projects/main_kasva_ws/install/gui/lib/python3.12/site-packages/gui-0.0.0-py3.12.egg-info' (and everything under it)
+[0.788s] Copying ../../build/gui/gui.egg-info to /home/eren/ern/projects/main_kasva_ws/install/gui/lib/python3.12/site-packages/gui-0.0.0-py3.12.egg-info
+[0.788s] running install_scripts
+[0.857s] Installing kasva_gui script to /home/eren/ern/projects/main_kasva_ws/install/gui/lib/gui
+[0.857s] writing list of installed files to '/home/eren/ern/projects/main_kasva_ws/build/gui/install.log'
+[0.873s] Invoked command in '/home/eren/ern/projects/main_kasva_ws/src/gui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/gui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gui build --build-base /home/eren/ern/projects/main_kasva_ws/build/gui/build install --record /home/eren/ern/projects/main_kasva_ws/build/gui/install.log --single-version-externally-managed install_data

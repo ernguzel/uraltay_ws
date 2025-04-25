@@ -1,0 +1,21 @@
+[1.801s] Invoking command in '/home/eren/ern/projects/main_kasva_ws/src/manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manager build --build-base /home/eren/ern/projects/main_kasva_ws/build/manager/build install --record /home/eren/ern/projects/main_kasva_ws/build/manager/install.log --single-version-externally-managed install_data
+[2.098s] running egg_info
+[2.118s] writing ../../build/manager/manager.egg-info/PKG-INFO
+[2.119s] writing dependency_links to ../../build/manager/manager.egg-info/dependency_links.txt
+[2.119s] writing entry points to ../../build/manager/manager.egg-info/entry_points.txt
+[2.119s] writing requirements to ../../build/manager/manager.egg-info/requires.txt
+[2.119s] writing top-level names to ../../build/manager/manager.egg-info/top_level.txt
+[2.160s] reading manifest file '../../build/manager/manager.egg-info/SOURCES.txt'
+[2.161s] writing manifest file '../../build/manager/manager.egg-info/SOURCES.txt'
+[2.161s] running build
+[2.162s] running build_py
+[2.162s] running install
+[2.169s] running install_lib
+[2.190s] running install_data
+[2.190s] running install_egg_info
+[2.212s] removing '/home/eren/ern/projects/main_kasva_ws/install/manager/lib/python3.12/site-packages/manager-0.0.0-py3.12.egg-info' (and everything under it)
+[2.212s] Copying ../../build/manager/manager.egg-info to /home/eren/ern/projects/main_kasva_ws/install/manager/lib/python3.12/site-packages/manager-0.0.0-py3.12.egg-info
+[2.213s] running install_scripts
+[2.354s] Installing komutan script to /home/eren/ern/projects/main_kasva_ws/install/manager/lib/manager
+[2.355s] writing list of installed files to '/home/eren/ern/projects/main_kasva_ws/build/manager/install.log'
+[2.391s] Invoked command in '/home/eren/ern/projects/main_kasva_ws/src/manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manager build --build-base /home/eren/ern/projects/main_kasva_ws/build/manager/build install --record /home/eren/ern/projects/main_kasva_ws/build/manager/install.log --single-version-externally-managed install_data

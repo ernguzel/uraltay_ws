@@ -1,0 +1,207 @@
+[0.057s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'kasva_odom']
+[0.057s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['kasva_odom'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7092cf39cb00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7092cf39c740>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7092cf39c740>>, mixin_verb=('build',))
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.078s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eren/ern/projects/main_kasva_ws'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ros'
+[0.095s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gui' with type 'ros.ament_python' and name 'gui'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/img_pro) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/img_pro' with type 'ros.ament_python' and name 'img_pro'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_odom) by extension 'ros'
+[0.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kasva_odom' with type 'ros.ament_cmake' and name 'kasva_odom'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/kasva_sekli) by extension 'ros'
+[0.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kasva_sekli' with type 'ros.ament_cmake' and name 'kasva_sekli'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/manager) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manager' with type 'ros.ament_python' and name 'manager'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstacle) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstacle' with type 'ros.ament_python' and name 'obstacle'
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.108s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gui' in 'src/gui'
+[0.108s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'img_pro' in 'src/img_pro'
+[0.108s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interfaces' in 'src/interfaces'
+[0.108s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kasva_sekli' in 'src/kasva_sekli'
+[0.108s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'manager' in 'src/manager'
+[0.108s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'obstacle' in 'src/obstacle'
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/eren/ern/projects/main_kasva_ws/install
+[0.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 367 installed packages in /opt/ros/jazzy
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'cmake_args' from command line to 'None'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'cmake_target' from command line to 'None'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'cmake_clean_first' from command line to 'False'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'cmake_force_configure' from command line to 'False'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'ament_cmake_args' from command line to 'None'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.134s] Level 5:colcon.colcon_core.verb:set package 'kasva_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.134s] DEBUG:colcon.colcon_core.verb:Building package 'kasva_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom', 'merge_install': False, 'path': '/home/eren/ern/projects/main_kasva_ws/src/kasva_odom', 'symlink_install': False, 'test_result_base': None}
+[0.134s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.135s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.136s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eren/ern/projects/main_kasva_ws/src/kasva_odom' with build type 'ament_cmake'
+[0.136s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eren/ern/projects/main_kasva_ws/src/kasva_odom'
+[0.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eren/ern/projects/main_kasva_ws/build/kasva_odom -- -j20 -l20
+[5.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eren/ern/projects/main_kasva_ws/build/kasva_odom -- -j20 -l20
+[5.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eren/ern/projects/main_kasva_ws/build/kasva_odom
+[5.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kasva_odom)
+[5.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eren/ern/projects/main_kasva_ws/build/kasva_odom
+[5.304s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom' for CMake module files
+[5.305s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom' for CMake config files
+[5.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('kasva_odom', 'cmake_prefix_path')
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/hook/cmake_prefix_path.ps1'
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/hook/cmake_prefix_path.dsv'
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/hook/cmake_prefix_path.sh'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/bin'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib/pkgconfig/kasva_odom.pc'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib/python3.12/site-packages'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/bin'
+[5.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.ps1'
+[5.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.dsv'
+[5.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.sh'
+[5.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.bash'
+[5.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.zsh'
+[5.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/colcon-core/packages/kasva_odom)
+[5.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kasva_odom)
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom' for CMake module files
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom' for CMake config files
+[5.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('kasva_odom', 'cmake_prefix_path')
+[5.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/hook/cmake_prefix_path.ps1'
+[5.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/hook/cmake_prefix_path.dsv'
+[5.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/hook/cmake_prefix_path.sh'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/bin'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib/pkgconfig/kasva_odom.pc'
+[5.310s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib/python3.12/site-packages'
+[5.310s] Level 1:colcon.colcon_core.environment:checking '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/bin'
+[5.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.ps1'
+[5.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.dsv'
+[5.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.sh'
+[5.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.bash'
+[5.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.zsh'
+[5.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/colcon-core/packages/kasva_odom)
+[5.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.312s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.315s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.315s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.315s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.329s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eren/ern/projects/main_kasva_ws/install/local_setup.ps1'
+[5.330s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eren/ern/projects/main_kasva_ws/install/_local_setup_util_ps1.py'
+[5.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eren/ern/projects/main_kasva_ws/install/setup.ps1'
+[5.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eren/ern/projects/main_kasva_ws/install/local_setup.sh'
+[5.332s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eren/ern/projects/main_kasva_ws/install/_local_setup_util_sh.py'
+[5.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eren/ern/projects/main_kasva_ws/install/setup.sh'
+[5.333s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eren/ern/projects/main_kasva_ws/install/local_setup.bash'
+[5.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eren/ern/projects/main_kasva_ws/install/setup.bash'
+[5.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eren/ern/projects/main_kasva_ws/install/local_setup.zsh'
+[5.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eren/ern/projects/main_kasva_ws/install/setup.zsh'

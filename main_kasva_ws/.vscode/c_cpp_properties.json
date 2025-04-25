@@ -1,0 +1,27 @@
+{
+    "configurations": [
+      {
+        "name": "ROS2",
+        "includePath": [
+          "/opt/ros/jazzy/include/**",
+          "${workspaceFolder}/**",
+          "/usr/include/**"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "gnu11",
+        "cppStandard": "c++14",
+        "intelliSenseMode": "gcc-x64",
+        "browse": {
+          "limitSymbolsToIncludedHeaders": false,
+          "path": [
+            "/opt/ros/jazzy/include",
+            "${workspaceFolder}",
+            "/usr/include"
+          ]
+        }
+      }
+    ],
+    "version": 4
+  }
+  

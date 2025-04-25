@@ -1,0 +1,4 @@
+source;share/kasva_odom/local_setup.bash
+source;share/kasva_odom/local_setup.dsv
+source;share/kasva_odom/local_setup.sh
+source;share/kasva_odom/local_setup.zsh

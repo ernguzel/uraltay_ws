@@ -1,0 +1,11 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/eren/ern/projects/main_kasva_ws/build/interfaces/rosidl_generator_type_description/interfaces",
+  "idl_tuples": [
+    "/home/eren/ern/projects/main_kasva_ws/build/interfaces/rosidl_adapter/interfaces:srv/Permission.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

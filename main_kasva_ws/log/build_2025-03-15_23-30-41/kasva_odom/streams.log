@@ -1,0 +1,25 @@
+[0.262s] Invoking command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eren/ern/projects/main_kasva_ws/build/kasva_odom -- -j20 -l20
+[0.418s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_node.dir/src/odom_node.cpp.o[0m
+[5.401s] [100%] [32m[1mLinking CXX executable odom_node[0m
+[5.632s] [100%] Built target odom_node
+[5.642s] Invoked command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eren/ern/projects/main_kasva_ws/build/kasva_odom -- -j20 -l20
+[5.643s] Invoking command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eren/ern/projects/main_kasva_ws/build/kasva_odom
+[5.649s] -- Install configuration: ""
+[5.649s] -- Installing: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib/kasva_odom/odom_node
+[5.652s] -- Set non-toolchain portion of runtime path of "/home/eren/ern/projects/main_kasva_ws/install/kasva_odom/lib/kasva_odom/odom_node" to ""
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/ament_index/resource_index/package_run_dependencies/kasva_odom
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/ament_index/resource_index/parent_prefix_path/kasva_odom
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/environment/ament_prefix_path.sh
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/environment/ament_prefix_path.dsv
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/environment/path.sh
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/environment/path.dsv
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/local_setup.bash
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/local_setup.sh
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/local_setup.zsh
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/local_setup.dsv
+[5.652s] -- Installing: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.dsv
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/ament_index/resource_index/packages/kasva_odom
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/cmake/kasva_odomConfig.cmake
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/cmake/kasva_odomConfig-version.cmake
+[5.652s] -- Up-to-date: /home/eren/ern/projects/main_kasva_ws/install/kasva_odom/share/kasva_odom/package.xml
+[5.653s] Invoked command in '/home/eren/ern/projects/main_kasva_ws/build/kasva_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eren/ern/projects/main_kasva_ws/build/kasva_odom

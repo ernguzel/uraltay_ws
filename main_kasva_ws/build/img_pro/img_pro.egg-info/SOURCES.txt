@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/img_pro/img_pro.egg-info/PKG-INFO
+../../build/img_pro/img_pro.egg-info/SOURCES.txt
+../../build/img_pro/img_pro.egg-info/dependency_links.txt
+../../build/img_pro/img_pro.egg-info/entry_points.txt
+../../build/img_pro/img_pro.egg-info/requires.txt
+../../build/img_pro/img_pro.egg-info/top_level.txt
+../../build/img_pro/img_pro.egg-info/zip-safe
+img_pro/__init__.py
+img_pro/line_fallowing.py
+resource/img_pro
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

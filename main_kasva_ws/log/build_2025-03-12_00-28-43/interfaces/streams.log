@@ -1,0 +1,17 @@
+[0.251s] Invoking command in '/home/eren/ern/projects/main_kasva_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eren/ern/projects/main_kasva_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/eren/ern/projects/main_kasva_ws/install/interfaces
+[0.380s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.410s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.464s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.504s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.682s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.682s]   Packages installing interfaces must include
+[0.682s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.682s]   package.xml
+[0.682s] Call Stack (most recent call first):
+[0.682s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.682s] 
+[0.682s] [0m
+[0.682s] -- Configuring incomplete, errors occurred!
+[0.686s] Invoked command in '/home/eren/ern/projects/main_kasva_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eren/ern/projects/main_kasva_ws/install/obstacle:/home/eren/ern/projects/main_kasva_ws/install/manager:/home/eren/ern/projects/main_kasva_ws/install/img_pro:/home/eren/ern/projects/main_kasva_ws/install/gui:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eren/ern/projects/main_kasva_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/eren/ern/projects/main_kasva_ws/install/interfaces

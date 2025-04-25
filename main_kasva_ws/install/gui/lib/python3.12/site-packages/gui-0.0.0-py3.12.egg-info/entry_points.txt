@@ -1,0 +1,2 @@
+[console_scripts]
+kasva_gui = gui.kasva_gui:main

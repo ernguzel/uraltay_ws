@@ -1,0 +1,21 @@
+[0.726s] Invoking command in '/home/eren/ern/projects/main_kasva_ws/src/obstacle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/obstacle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle build --build-base /home/eren/ern/projects/main_kasva_ws/build/obstacle/build install --record /home/eren/ern/projects/main_kasva_ws/build/obstacle/install.log --single-version-externally-managed install_data
+[0.884s] running egg_info
+[0.894s] writing ../../build/obstacle/obstacle.egg-info/PKG-INFO
+[0.894s] writing dependency_links to ../../build/obstacle/obstacle.egg-info/dependency_links.txt
+[0.894s] writing entry points to ../../build/obstacle/obstacle.egg-info/entry_points.txt
+[0.894s] writing requirements to ../../build/obstacle/obstacle.egg-info/requires.txt
+[0.894s] writing top-level names to ../../build/obstacle/obstacle.egg-info/top_level.txt
+[0.916s] reading manifest file '../../build/obstacle/obstacle.egg-info/SOURCES.txt'
+[0.917s] writing manifest file '../../build/obstacle/obstacle.egg-info/SOURCES.txt'
+[0.917s] running build
+[0.917s] running build_py
+[0.917s] running install
+[0.920s] running install_lib
+[0.932s] running install_data
+[0.932s] running install_egg_info
+[0.943s] removing '/home/eren/ern/projects/main_kasva_ws/install/obstacle/lib/python3.12/site-packages/obstacle-0.0.0-py3.12.egg-info' (and everything under it)
+[0.943s] Copying ../../build/obstacle/obstacle.egg-info to /home/eren/ern/projects/main_kasva_ws/install/obstacle/lib/python3.12/site-packages/obstacle-0.0.0-py3.12.egg-info
+[0.943s] running install_scripts
+[1.019s] Installing obstacle script to /home/eren/ern/projects/main_kasva_ws/install/obstacle/lib/obstacle
+[1.019s] writing list of installed files to '/home/eren/ern/projects/main_kasva_ws/build/obstacle/install.log'
+[1.042s] Invoked command in '/home/eren/ern/projects/main_kasva_ws/src/obstacle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/obstacle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle build --build-base /home/eren/ern/projects/main_kasva_ws/build/obstacle/build install --record /home/eren/ern/projects/main_kasva_ws/build/obstacle/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.928s] Invoking command in '/home/eren/ern/projects/main_kasva_ws/src/img_pro': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/img_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img_pro build --build-base /home/eren/ern/projects/main_kasva_ws/build/img_pro/build install --record /home/eren/ern/projects/main_kasva_ws/build/img_pro/install.log --single-version-externally-managed install_data
+[1.090s] running egg_info
+[1.101s] writing ../../build/img_pro/img_pro.egg-info/PKG-INFO
+[1.101s] writing dependency_links to ../../build/img_pro/img_pro.egg-info/dependency_links.txt
+[1.102s] writing entry points to ../../build/img_pro/img_pro.egg-info/entry_points.txt
+[1.102s] writing requirements to ../../build/img_pro/img_pro.egg-info/requires.txt
+[1.102s] writing top-level names to ../../build/img_pro/img_pro.egg-info/top_level.txt
+[1.123s] reading manifest file '../../build/img_pro/img_pro.egg-info/SOURCES.txt'
+[1.124s] writing manifest file '../../build/img_pro/img_pro.egg-info/SOURCES.txt'
+[1.124s] running build
+[1.124s] running build_py
+[1.124s] running install
+[1.128s] running install_lib
+[1.139s] running install_data
+[1.139s] running install_egg_info
+[1.151s] removing '/home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages/img_pro-0.0.0-py3.12.egg-info' (and everything under it)
+[1.151s] Copying ../../build/img_pro/img_pro.egg-info to /home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages/img_pro-0.0.0-py3.12.egg-info
+[1.151s] running install_scripts
+[1.228s] Installing line_folower script to /home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/img_pro
+[1.228s] writing list of installed files to '/home/eren/ern/projects/main_kasva_ws/build/img_pro/install.log'
+[1.271s] Invoked command in '/home/eren/ern/projects/main_kasva_ws/src/img_pro' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eren/ern/projects/main_kasva_ws/build/img_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/img_pro build --build-base /home/eren/ern/projects/main_kasva_ws/build/img_pro/build install --record /home/eren/ern/projects/main_kasva_ws/build/img_pro/install.log --single-version-externally-managed install_data

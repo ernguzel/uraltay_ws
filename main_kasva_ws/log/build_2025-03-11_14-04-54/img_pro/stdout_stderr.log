@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/img_pro/img_pro.egg-info/PKG-INFO
+writing dependency_links to ../../build/img_pro/img_pro.egg-info/dependency_links.txt
+writing entry points to ../../build/img_pro/img_pro.egg-info/entry_points.txt
+writing requirements to ../../build/img_pro/img_pro.egg-info/requires.txt
+writing top-level names to ../../build/img_pro/img_pro.egg-info/top_level.txt
+reading manifest file '../../build/img_pro/img_pro.egg-info/SOURCES.txt'
+writing manifest file '../../build/img_pro/img_pro.egg-info/SOURCES.txt'
+running build
+running build_py
+copying img_pro/line_fallowing.py -> /home/eren/ern/projects/main_kasva_ws/build/img_pro/build/lib/img_pro
+running install
+running install_lib
+copying /home/eren/ern/projects/main_kasva_ws/build/img_pro/build/lib/img_pro/line_fallowing.py -> /home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages/img_pro
+byte-compiling /home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages/img_pro/line_fallowing.py to line_fallowing.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages/img_pro-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/img_pro/img_pro.egg-info to /home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/python3.12/site-packages/img_pro-0.0.0-py3.12.egg-info
+running install_scripts
+Installing line_folower script to /home/eren/ern/projects/main_kasva_ws/install/img_pro/lib/img_pro
+writing list of installed files to '/home/eren/ern/projects/main_kasva_ws/build/img_pro/install.log'

@@ -1,0 +1,2 @@
+[console_scripts]
+line_folower = img_pro.line_fallowing:main
